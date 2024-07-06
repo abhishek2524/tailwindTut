@@ -1,0 +1,16 @@
+{
+  "name": "tailwindtut",
+  "version": "1.0.0",
+  "description": "npx tailwindcss init\r npx tailwindcss -i ./src/input.css -o ./build/css/style.css\r npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write ./build/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.5"
+  }
+}
